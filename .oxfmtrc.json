@@ -3,5 +3,5 @@
   "sortTailwindcss": {
     "stylesheet": "./src/index.css"
   },
-  "ignorePatterns": ["pnpm-lock.yaml", "style-guide.md"]
+  "ignorePatterns": ["pnpm-lock.yaml", "style-guide.md", "CHALLENGE.md"]
 }
