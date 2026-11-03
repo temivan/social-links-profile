@@ -64,7 +64,3 @@ pnpm-debug.log*
 .parcel-cache/
 .turbo/
 *.local
-
-# Starter files (copied into the project; trash when done)
-social-links-profile-main/
-social-links-profile-figma/
