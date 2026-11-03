@@ -19,7 +19,7 @@ export function ProfileCard({ profile }: ProfileCardProps) {
         <h1 className="text-preset-1 font-semibold">{profile.name}</h1>
         <p className="font-bold text-green">{profile.location}</p>
       </div>
-      <p>&quot;{profile.bio}&quot;</p>
+      <p>{profile.bio}</p>
       <SocialLinks links={profile.links} />
     </article>
   );

@@ -49,9 +49,9 @@ Users should be able to:
 ### Notes
 
 - **Design tokens.** The style guide's colours, the Inter font and the type presets live in a Tailwind `@theme` block in `src/index.css`. The default palette is cleared, so components can only use the named tokens.
-- **Content model.** All profile content (name, location, bio, avatar, links) sits in one typed module, `src/data/profile.ts`. Components only render it.
+- **Content model.** All profile content (name, location, bio, avatar, links) and the footer author credit sit in one typed module, `src/data/profile.ts`. Components only render it.
 - **Accessibility.** The page has one `main` landmark, an `h1` for the name, and a labelled `nav` holding the links as a list. Each link opens in a new tab and says so to screen readers with a visually hidden "(opens in a new tab)" label.
-- **Interaction states.** Hover turns a button green with dark text. Keyboard focus (`:focus-visible`) looks the same and adds an offset outline ring. Colour transitions are switched off for visitors who prefer reduced motion.
+- **Interaction states.** Hover turns a button green with dark text. Keyboard focus (`:focus-visible`) looks the same and adds an offset outline ring. Colour transitions are switched off for visitors who prefer reduced motion. The hover text is grey-900, not the grey-700 shown in Figma. This is deliberate: it follows the spec and gives better contrast on the green.
 - **Self-hosted font.** Inter is loaded from the starter's variable font with `@font-face`, covering weights 400 to 700 in one file.
 - **Deployment.** Every push to `main` runs `.github/workflows/deploy.yml`, which builds with pnpm and publishes `dist/` with the official Pages actions. Vite's `base` is `/social-links-profile/` so assets resolve under the repo path.
 
