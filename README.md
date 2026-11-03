@@ -29,7 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [github.com/temivan/social-links-profile](https://github.com/temivan/social-links-profile)
+- Solution URL: [frontendmentor.io/solutions/social-links-profile-card-FV3GpqgU-D](https://www.frontendmentor.io/solutions/social-links-profile-card-FV3GpqgU-D)
+- Repository: [github.com/temivan/social-links-profile](https://github.com/temivan/social-links-profile)
 - Live Site URL: [temivan.github.io/social-links-profile](https://temivan.github.io/social-links-profile/)
 
 ## My process
