@@ -1,0 +1,36 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Inter";
+  src: url("./assets/fonts/Inter-Variable.ttf") format("truetype");
+  font-weight: 400 700;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Design tokens from style-guide.md and the Figma design system. The default
+   palette and font stacks are cleared so only these tokens can be used. */
+@theme {
+  --color-*: initial;
+  --color-green: hsl(75 94% 57%);
+  --color-white: hsl(0 0% 100%);
+  --color-grey-700: hsl(0 0% 20%);
+  --color-grey-800: hsl(0 0% 12%);
+  --color-grey-900: hsl(0 0% 8%);
+
+  --font-*: initial;
+  --font-sans: "Inter", sans-serif;
+
+  --text-preset-1: 1.5rem;
+  --text-preset-1--line-height: 1.5;
+  --text-preset-2: 0.875rem;
+  --text-preset-2--line-height: 1.5;
+  --text-attribution: 0.6875rem;
+  --text-attribution--line-height: 1.5;
+}
+
+@layer base {
+  body {
+    @apply bg-grey-900 font-sans text-preset-2 text-white antialiased;
+  }
+}
