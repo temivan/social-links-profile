@@ -5,7 +5,7 @@ const linkClassName =
 
 export function Attribution() {
   return (
-    <footer className="px-6 pb-6 text-center text-attribution">
+    <footer className="row-start-3 self-end text-center text-attribution">
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" className={linkClassName}>
         Frontend Mentor
